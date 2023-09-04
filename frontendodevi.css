@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 5px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    display: block;
+    float: right;
+    height: 50px;
+    padding: 10px;
+}
+
+.navbar-wrapper{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+}
+
+.navbar-wrapper a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-wrapper a:hover{
+    text-decoration: underline;
+}
+
+.app , .account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.app:hover , .account:hover{
+    background-color:  #f2f2f2;
+}
+
+.account img{
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.app svg{
+    width: 40px;
+    height: 40px;
+    color: #5f6368;
+}
+
+.mainbody{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45%;
+    border: 1px solid #E5E8E8;
+    border-radius: 30px; /*kenarlarının yuvarlatılmış görünümü*/
+    padding: 5px 15px;
+    margin: 25px;
+}
+
+.searchpart:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 /28%);
+}
+
+.searchpart .searchimg{
+    width: 30px;
+    height: 30px;
+}
+
+.searchpart input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+
+.searchpart .keyboard{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    color: #a5aab0 ;
+}
+
+form{
+    margin-top: -100px;
+    text-align: center;
+    width: 700px;
+}
+
+form input{
+    text-align: left;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 10px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+form input:hover {
+    border: 1px solid #e7e8eb;
+    box-shadow: 0 3px 3px -3px #a5aab0;
+}
+
+#search-bar{
+    width: 90%;
+    height: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 17px;
+}
+
+#search-bar:hover{
+    box-shadow: none;
+}
+
+footer{
+    width: 99%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+.location{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.left-menu a , .right-menu a{
+    text-decoration: none;
+    color: #6f6f6f;
+    padding: 0 20px 0 0;
+}
+
+.left-menu a:hover , .right-menu a:hover{
+    text-decoration: underline;
+}
